@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Stupid Coaching</title>
+</head>
+<body>
+  <h1>Stupid Coaching</h1>
+  <div id="question">
+    <p><%= @questions %></p>
+    <p id="you">-You</p>
+  </div>
+  <br>
+  <div id="answer">
+    <p><strong><%= @answer %></strong></p>
+    <p id="coach">-Your coach</p>
+  </div>
+
+
+  <p><%= link_to "Ask a new question", ask_path %></p>
+
+</body>
+</html>
